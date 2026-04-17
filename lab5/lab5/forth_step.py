@@ -80,7 +80,7 @@ class Robot(Node):
                 screen_center = image_width / 2.0
                 error_x = screen_center - x
                 
-                Kp = 0.005 # Proportional Gain
+                Kp = 0.0005 # Proportional Gain
                 self.turn_speed = error_x * Kp 
 
                 # 2. Calculate Linear X (Distance based on Area)
